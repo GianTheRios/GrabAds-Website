@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #14182f;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Nav Bar */
+
+nav{
+  background-color: #14182f;;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  color: #40dc38;
+}
+
+svg {
+  color: #40dc38;
+  margin: 0;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-top: -20px;
+  margin-left: 30px;
+  margin-bottom: -30px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-bar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  float: right;
+  gap: 30px;
+}
+
+.menu-bar ul li a:hover {
+  color: #40dc38
+}
+
+nav ul li {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+ul li:hover{
+  transform: scale(1.1);
+}
+
+button {
+  font-family: 'Poppins', 'sans-serif';
+  background-color: #14182f;
+  border: 2px solid #dedee4;
+  border-radius: 15px;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #dedee4;
+  color: #14182f;
+}
+
+  
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.hero-text {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -100px !important;
+  margin-bottom: -75px !important;
+}
+
+.welcome {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.btn {
+  background-color: #40dc38;
+  border: 2px solid #40dc38;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #40dc38;
+  color: #14182f;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 2dvh;
+}
+
+.btn:hover {
+  background-color: #14182f;
+  color: #40dc38;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #14182f;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin: 50px;
+
+}
+
+.about-us h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-us img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.about-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 3;
+}
