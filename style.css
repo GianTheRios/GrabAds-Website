@@ -2,6 +2,7 @@
 
 html {
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +50,8 @@ svg {
 }
 
 .menu-bar ul li a:hover {
-  color: #40dc38
+  transition: 0.5s ease;
+  color: #40dc38 
 }
 
 nav ul li {
@@ -146,7 +148,7 @@ a {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
   color: #14182f;
 }
 
@@ -182,4 +184,17 @@ a {
   text-align: center;
   letter-spacing: 2px;
   line-height: 3;
+}
+
+/* Service Section */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #14182f;
+  color: whitesmoke;
 }
