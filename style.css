@@ -188,13 +188,48 @@ a {
 
 /* Service Section */
 
-.services {
+/* .container .row{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 50px;
+  background-color: whitesmoke;
+  color: #14182f;
+
+} */
+
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
   width: 100%;
-  background-color: #14182f;
-  color: whitesmoke;
+  background-color: white;
+  color: #000000;
+}
+
+.grabads-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-menu .footer-list li a{
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #14182f;
 }
